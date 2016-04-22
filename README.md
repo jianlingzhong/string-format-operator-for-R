@@ -1,5 +1,7 @@
 # String format operator for R
-A simple string format operator for R, similar to the % in Python. This operator makes use of R's `sprintf` function. Code is very simple:
+A simple string format operator for R, similar to the % operator in Python. 
+
+It makes use of R's `sprintf` function. Code is very simple:
 
 ```R
 `%^%` <- function(fmt, ...) {
